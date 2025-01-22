@@ -11,7 +11,7 @@ span {
 
 /* Adding the :after pseudo-element */
 #container:after {
-  content: ' After Element';
+  content: 'After Element';
   color: rgb(255, 0, 0); /* Red color */
   font-weight: bold;
 }
