@@ -1,8 +1,17 @@
-/*  your css code here. If applicable */
-#container{
-	margin:20px;
-	font-size:20px;
+span {
+  color: rgb(255, 0, 0); /* Red color */
 }
-span{
-	color:rgb(255, 0, 0);
+
+/* Adding the :before pseudo-element */
+#container:before {
+  content: 'Before: ';
+  color: rgb(255, 0, 0); /* Red color */
+  font-weight: bold;
+}
+
+/* Adding the :after pseudo-element */
+#container:after {
+  content: ' :After';
+  color: rgb(255, 0, 0); /* Red color */
+  font-weight: bold;
 }
